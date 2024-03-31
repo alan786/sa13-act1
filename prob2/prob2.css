@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #fffbea;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    color: #356859;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.menu {
+    max-width: 600px;
+    margin: auto;
+}
+
+.category h2 {
+    background-color: #bfa760;
+    color: white;
+    padding: 10px;
+    margin: 20px 0 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.item:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.price {
+    color: #888;
+}
+
